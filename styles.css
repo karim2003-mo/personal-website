@@ -32,3 +32,36 @@ body section{
     min-height: 78vh;
 }
 }
+@media(min-width: 400px){
+*{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    box-sizing: border-box;
+    height: 15%;
+    background: linear-gradient(to right, #7661df, #4b2edf);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    align-items: center;
+    padding:2% 3% ;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 1.8em;
+    padding-left: 1em; ;
+    font-weight: 600;
+    color :#a1dcce ;
+}
+body section{
+    margin-top: 11%;
+    background:url(sec-back.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    min-height: 78vh;
+}
+}
