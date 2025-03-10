@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="identity">
-        <img class="headerimage" src="collection.png" alt="" width="100">
+        <img class="headerimage" src="collection.png" alt="">
         <nav>
             <a href="">contact info </a>
             <a href="">services </a>
@@ -19,5 +19,19 @@
     <br>
     <section class="sec">
     </section>
+    <script>
+        function updateSize() {
+            // Set CSS variables
+            document.documentElement.style.setProperty('--window-width', window.innerWidth + "px");
+            document.documentElement.style.setProperty('--window-height', window.innerHeight + "px");
+            // Update HTML content
+            document.getElementById("width").textContent = window.innerWidth;
+            document.getElementById("height").textContent = window.innerHeight;
+        }
+        // Run on page load
+        updateSize();
+        // Update on window resize
+        window.addEventListener("resize", updateSize);
+    </script>
 </body>
 </html>
