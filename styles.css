@@ -13,7 +13,7 @@
 }
 .jobdescription{
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 2em;
     
 }
 header{
@@ -32,7 +32,7 @@ header nav a{
     text-decoration: none;
     font-size: 1.5em;
     padding-left: 1em; ;
-
+    text-decoration: none;
     font-weight: 600;
     color :#a1dcce ;
 }
@@ -44,6 +44,19 @@ body section{
     aspect-ratio:1762/992 ;
     background-size: cover;
     display: flex;
+}
+body section div h1{
+    width: 100%;
+    font-size: 2.5em;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+body section div p{
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 10%;
+    font-weight: 500;
+    color: blanchedalmond;
 }
 body header img{
     width: 6%;
