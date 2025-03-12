@@ -61,3 +61,38 @@ body section div p{
 body header img{
     width: 6%;
 }
+.contacts{
+    padding-top: 30%;
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.github{
+    font-size: 2em;
+    color: aqua;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.linkedin{
+    font-size: 2em;
+    color: aqua;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+.facebook{
+    font-size: 2em;
+    color: aqua;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+.email{
+    font-size: 2em;
+    color: aqua;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+}
